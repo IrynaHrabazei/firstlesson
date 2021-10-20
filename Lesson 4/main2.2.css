@@ -1,0 +1,34 @@
+.father{
+    width: 400px;
+}
+.st{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wigets{
+    width: 100%;
+    height: 140px;
+    background: #184cea;
+    margin-bottom: 10px;
+
+}
+.block2{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.item{
+    width: 32%;
+    height: 100%;
+    background: darkblue;
+
+}
+.contacts{
+    width: 100%;
+    height: 280px;
+    background: #184cea;
+}

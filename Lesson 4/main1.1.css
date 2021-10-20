@@ -1,0 +1,39 @@
+.cover{
+    border: 2px solid #030303;
+    border-radius: 10px;
+    margin: 0;
+    padding:5px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.A{
+    height: 120px;
+    margin-bottom: 5px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BC{
+    height: 300px;
+    display: flex;
+    column-gap: 5px;
+}
+.C{
+    height: 300px;
+    flex-grow: 2;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B{
+    height: 300px;
+    flex-grow: 3;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

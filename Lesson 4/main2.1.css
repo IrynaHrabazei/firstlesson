@@ -1,0 +1,42 @@
+.father{
+    width: 600px;
+}
+.st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.wid{
+    width: 100%;
+}
+.header{
+    height: 50px;
+    background: blue;
+    margin-bottom: 2px;
+}
+.nav{
+    height: 30px;
+    background: indigo;
+    margin-bottom: 2px;
+}
+.block{
+    height: 380px;
+    display: flex;
+    column-gap: 1px;
+    margin-bottom: 1px;
+}
+.main{
+    height: 100%;
+    flex-grow: 2;
+    background: deepskyblue;
+}
+.aside{
+    height: 100%;
+    flex-grow: 1;
+    background: aquamarine;
+}
+.footer{
+    height: 100px;
+    background: cornflowerblue;
+}
