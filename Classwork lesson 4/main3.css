@@ -1,0 +1,52 @@
+.father{
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.cen{
+    background: silver;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.A{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5px;
+}
+.block1{
+    flex-basis: 100%;
+    height: 300px;
+    display: flex;
+    column-gap: 5px;
+}
+.block2{
+    display: flex;
+    flex-basis: 70%;
+    flex-wrap: wrap;
+    height: 100%;
+    row-gap: 5px;
+}
+.B{
+    width: 100%;
+    height: 49%;
+}
+.block3{
+    width: 100%;
+    height: 49%;
+    display: flex;
+    column-gap: 5px;
+}
+.item{
+    width: 35%;
+    height: 100%;
+}
+.F{
+    width: 30%;
+    height: 100%;
+}
