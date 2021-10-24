@@ -1,0 +1,30 @@
+.cover{
+    border: 2px solid #030303;
+    border-radius: 10px;
+    margin: 0;
+    padding:5px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+.st{background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.A{
+    height: 120px;
+    margin-bottom: 5px;
+}
+.hblock{
+    height: 300px;
+}
+.BC{
+    display: flex;
+    column-gap: 5px;
+}
+.C{
+    flex-grow: 2;
+}
+.B{
+    flex-grow: 3;
+}
