@@ -1,0 +1,48 @@
+@media screen and (max-width: 400px) {
+    .nav__menu{
+        display: none;
+    }
+    .header__logo img {
+        width: 60px;
+    }
+    .header__top{
+        padding-top: 20px;
+        padding-left: 14px;
+        padding-right: 18px;
+    }
+    .nav__button__mobile{
+        display: flex;
+    }
+    .header__main{
+        padding-top: 230px;
+        padding-left: 40px;
+    }
+    .header__title h2{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__title h1{
+        font-size: 40px;
+        line-height: 46px;
+        padding-bottom: 7px;
+    }
+    .header__title p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header__title p::before,
+    .header__title p::after{
+        display: none;
+    }
+    .header__button{
+        display: none;
+    }
+    .header__button__menu{
+        display: block;
+    }
+    .header__bottom{
+        flex-direction: column;
+        row-gap: 14px;
+        top: 700px;
+    }
+    }
