@@ -1,0 +1,45 @@
+@media screen and (max-width: 400px){
+    .mobile__display{
+        display: none;
+    }
+    .mobile__nav__button{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    .navbar-brand img{
+        width: 70px;
+        /*height: 30px;*/
+    }
+    h2.header__main__title{
+        font-family: Tinos;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    h1.header__main__subtitle{
+        font-family: Tinos;
+        font-size: 40px;
+        line-height: 46px;
+    }
+    p.header__main__description{
+        font-family: Open Sans;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header__main__description__line{
+        display: none;
+    }
+    .header__main{
+        margin-top: 200px;
+    }
+    .no__display__PC{
+        display: block;
+    }
+    .header__bottom{
+        top: 690px;
+    }
+
+
+
+    }
